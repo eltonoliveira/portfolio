@@ -1,0 +1,60 @@
+/* 
+https://css-tricks.com/snippets/css/using-font-face/
+*/
+@font-face {
+    font-family: "Roboto-Regular";
+    src: 
+        url("/fonts/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Roboto-Thin";
+    src: 
+        url("/fonts/Roboto-Thin.ttf") format("truetype");
+}
+
+body {
+    background-color: rgb(45, 142, 221);
+    background-image: url(/img/background_8.jpg);
+    background-size: auto 100vh;
+    color: #FFF;
+    font-family: Roboto-Thin, Nunito, Arial, Verdana;
+    height: 100vh;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+/**
+Utilizando seletor hierárquico
+*/
+.menu li {
+    list-style: none;
+}
+
+.menu {
+    background-color: #008b8b;
+}
+
+/**
+Configurando os estilos para duas classses de uma vez
+*/
+.site-title, .site-subtitle {
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
