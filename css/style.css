@@ -4,19 +4,19 @@ https://css-tricks.com/snippets/css/using-font-face/
 @font-face {
     font-family: "Roboto-Regular";
     src: 
-        url("fonts/Roboto-Regular.ttf") format("truetype");
+        url("../fonts/Roboto-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Roboto-Thin";
     src: 
-        url("fonts/Roboto-Thin.ttf") format("truetype");
+        url("../fonts/Roboto-Thin.ttf") format("truetype");
 }
 
 
 body {
     background-color: rgb(45, 142, 221);
-    background-image: url("/img/background_10.jpg");
+    background-image: url("../img/background_10.jpg");
     background-size: auto 100vh;
     color: #FFF;
     font-family: Roboto-Thin, Nunito, Arial, Verdana;
